@@ -1,0 +1,89 @@
+body{
+    background-color: hsl(185, 75%, 39%);
+    overflow: hidden;
+}
+#Card{
+    width: 350px;
+    height: 400px;
+    margin-top: 140px;
+    z-index: 3;
+    border-radius: 16px;
+    border: 0px;
+}
+#TopImg img{
+    position: absolute;
+    top: -502px;
+    left: -280px;
+    overflow: hidden;
+}
+#BottomImg img{
+    position: absolute;
+    bottom: -610px;
+    right: -185px;
+}
+#ProfileImg{
+    border-radius: 50%;
+    height: 96px;
+    width: 96px;
+    position: absolute;
+    left:130px;
+    margin-top: 90px;
+    border: solid 5px #FFF;
+}
+#BgImg{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+#Name{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+#CardBody{
+    margin-top: 55px;
+
+}
+#Para{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
+hr{
+    margin: 0 -15px;
+  border: 0px;
+  border-top: 1px hsl(0, 0%, 59%);
+}
+#HR{
+    margin-top: 35px;
+}
+span{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.profile-stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .profile-followers,
+  .profile-likes,
+  .profile-photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .number-style {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #2e3349;
+    text-align: center;
+  }
+  
+  .stats-text-style {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    color: #6b7082;
+  }
